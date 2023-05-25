@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type='text'] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #ccc;
+  padding: 10px 15px;
+  color: white;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
+
+span:last-child {
+  color: red;
+  cursor: pointer;
+}
